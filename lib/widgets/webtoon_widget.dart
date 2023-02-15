@@ -23,7 +23,7 @@ class Webtoon extends StatelessWidget {
               thumb: thumb,
               id: id,
             ),
-            fullscreenDialog: true,
+            fullscreenDialog: true, // X 표시 나오게
           ),
         );
       },

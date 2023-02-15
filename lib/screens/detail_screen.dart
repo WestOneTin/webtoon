@@ -44,6 +44,7 @@ class _DetailScreenState extends State<DetailScreen> {
 
   @override
   void initState() {
+    // 시작할때 불러옴
     webtoon = ApiService.getToonById(widget.id);
     episodes = ApiService.getLatestEpisodesById(widget.id);
     initPrefs();
